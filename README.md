@@ -63,7 +63,7 @@ The format is defined in five main parts. The top-level datagram formats are spe
 
 All data is SCALE encoded. Elementary types are expressed in Rust-language format, for example:
 
-- A 32-bit signed integer is written as `s32`.
+- A 32-bit signed integer is written as `i32`.
 - A 64-bit unsigned integer is written as `u64`.
 
 When a bulleted list of types---possibly named---is given, it implies a simple concatenation of individual typed values. For example, a 64-bit unsigned "index" followed by a list of bytes of "data" could be written as:
